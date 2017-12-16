@@ -1,6 +1,6 @@
 {
 	"contact": "theghostphanom@gmail.com",
-	"id": "GhostPhanom-Thcrap",
+	"id": "GhostPhanom",
 	"patches": {
 		"ChristmasParty": "Christmas in Gensokyo"
 	},
