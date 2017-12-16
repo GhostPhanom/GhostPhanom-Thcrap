@@ -2,7 +2,7 @@
 	"contact": "theghostphanom@gmail.com",
 	"id": "GhostPhanom-Thcrap",
 	"patches": {
-		"ChristmasParty": "The return of Ghosty! (English)"
+		"ChristmasParty": "Christmas in Gensokyo"
 	},
 	"servers": [
 		"https://raw.githubusercontent.com/GhostPhanom/GhostPhanom-Thcrap/master/"
