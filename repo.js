@@ -2,6 +2,7 @@
 	"contact": "theghostphanom@gmail.com",
 	"id": "GhostPhanom",
 	"patches": {
+		"BossRush": "Turbo youkai extermination",
 		"ChristmasParty": "Christmas in Gensokyo"
 	},
 	"servers": [
