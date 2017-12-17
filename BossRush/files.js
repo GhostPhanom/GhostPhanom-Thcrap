@@ -10,7 +10,7 @@
 	"th12/Neuer Ordner/stage07.ecl": null,
 	"th12/Neuer Ordner/stage07boss.ecl": null,
 	"th12/default.ecl": 2225254972,
-	"th12/stage01.ecl": 360472137,
+	"th12/stage01.ecl": 3671893502,
 	"th12/stage02.ecl": 3318159594,
 	"th12/stage03.ecl": 1378730452,
 	"th12/stage04.ecl": 298232224,
