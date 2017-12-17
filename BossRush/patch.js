@@ -7,5 +7,6 @@
 	"servers": [
 		"https://raw.githubusercontent.com/GhostPhanom/GhostPhanom-Thcrap/master/BossRush/"
 	],
-	"title": "Turbo youkai extermination"
+	"title": "Turbo youkai extermination",
+	"update": true
 }
