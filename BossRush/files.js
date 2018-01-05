@@ -18,5 +18,5 @@
 	"th12/stage06.ecl": 317424473,
 	"th12/stage07.ecl": 1879708046,
 	"th12/stage07boss.ecl": 3067935436,
-	"th128/st_ex.ecl": 3377422568
+	"th128/st_ex.ecl": 219019026
 }
