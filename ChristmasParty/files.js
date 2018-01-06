@@ -2,6 +2,7 @@
 	"patch.js": 507221831,
 	"th07/data/face/st01/face_01_00.png": 2466188653,
 	"th07/face/st01/face_01_00.png": null,
+	"th07/name.pat.json": 73052420,
 	"th07/se_bonus.wav": null,
 	"th07/se_bonus2.wav": null,
 	"th07/se_border.wav": null,
