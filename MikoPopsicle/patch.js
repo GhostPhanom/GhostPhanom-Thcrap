@@ -7,6 +7,5 @@
 	"servers": [
 		"https://raw.githubusercontent.com/GhostPhanom/GhostPhanom-Thcrap/master/MikoPopsicle/"
 	],
-	"title": "Changes her shaku and aura for a Cirno Popsicle in TH13",
-	"update": true
+	"title": "Changes her shaku and aura for a Cirno Popsicle in TH13"
 }
