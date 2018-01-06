@@ -2,7 +2,7 @@
 	"contact": "theghostphanom@gmail.com",
 	"id": "GhostPhanom",
 	"patches": {
-		"BossRush": "Turbo youkai extermination",
+		"BossRush": "Turbo youkai extermination (Currently supports TH12, 128Ex, 13)",
 		"MikoIcecream": "Changes her shaku and aura for a Cirno icecream in TH13"
 	},
 	"servers": [
