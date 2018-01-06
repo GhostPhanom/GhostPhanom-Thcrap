@@ -1,5 +1,5 @@
 {
-	"patch.js": 1538035624,
+	"patch.js": 277636063,
 	"th13/face/enemy6/face06bs.png": 530549061,
 	"th13/face/enemy6/face06ct.png": 4181796436,
 	"th13/stgenm/stage06/enm6.png": 3628514508,
