@@ -3,7 +3,7 @@
 	"id": "GhostPhanom",
 	"patches": {
 		"BossRush": "Turbo youkai extermination",
-		"ChristmasParty": "Christmas in Gensokyo"
+		"MikoIcecream": "Changes her shaku and aura for a Cirno icecream"
 	},
 	"servers": [
 		"https://raw.githubusercontent.com/GhostPhanom/GhostPhanom-Thcrap/master/"
