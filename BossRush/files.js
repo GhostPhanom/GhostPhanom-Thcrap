@@ -1,5 +1,12 @@
 {
 	"patch.js": 3341741110,
+	"th08/ecldata1.ecl": 4254154729,
+	"th10/stage01.ecl": 603907464,
+	"th10/stage02.ecl": 2087009550,
+	"th10/stage03.ecl": 2295729776,
+	"th10/stage04.ecl": 2910004061,
+	"th10/stage05.ecl": 2081521676,
+	"th10/stage06.ecl": 2448553398,
 	"th12/Neuer Ordner/default.ecl": null,
 	"th12/Neuer Ordner/stage01.ecl": null,
 	"th12/Neuer Ordner/stage02.ecl": null,
