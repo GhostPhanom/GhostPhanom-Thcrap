@@ -7,5 +7,5 @@
 	"servers": [
 		"https://raw.githubusercontent.com/GhostPhanom/GhostPhanom-Thcrap/master/BossRush/"
 	],
-	"title": "Turbo youkai extermination (Currently supports TH12, 128Ex, 13, 14)"
+	"title": "Turbo youkai extermination (Currently supports TH10, TH12, 128Ex, 13, 14)"
 }

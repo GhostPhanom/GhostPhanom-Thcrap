@@ -2,7 +2,7 @@
 	"contact": "theghostphanom@gmail.com",
 	"id": "GhostPhanom",
 	"patches": {
-		"BossRush": "Turbo youkai extermination (Currently supports TH12, 128Ex, 13, 14)",
+		"BossRush": "Turbo youkai extermination (Currently supports TH10, TH12, 128Ex, 13, 14)",
 		"MikoPopsicle": "Changes her shaku and aura for a Cirno Popsicle in TH13"
 	},
 	"servers": [
