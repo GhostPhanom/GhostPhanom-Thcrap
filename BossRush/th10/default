@@ -1,0 +1,150 @@
+anim { "enemy.anm"; }
+
+sub Girl01()
+{
+    var A;
+    ins_258(1);
+    ins_262(0, 40);
+    ins_322(32);
+    ins_320(40.0f, 40.0f);
+    ins_321(16.0f, 16.0f);
+    ins_326();
+    ins_327(6, 1);
+    ins_328(32.0f, 32.0f);
+    ins_284(1.5707964f, 5.0f);
+    ins_285(60, 4, -999999.0f, 0.0f);
+    ins_0();
+    ins_17(0);
+6240:
+    ins_0();
+    ins_1();
+}
+
+sub main()
+{
+    var A B C;
+	ins_0();
+    ins_322(16);
+60:
+	ins_257("Girl01", 64.0f, -16.0f, 1, 1, 2);
+240:
+    ins_257("MBoss", -64.0f, -16.0f, 6000, 10000, 1);
+    ins_339();
+    ins_340();
+    ins_338(0);
+    ins_339();
+	ins_257("Boss", -144.0f, -16.0f, 40, 10000, 1);
+    ins_339();
+    ins_340();
+    ins_338(1);
+    ins_339();
+    ins_1();
+}
+
+sub Ecl_EtBreak()
+{
+    var A B;
+    %B = 16.0f;
+    ins_322(16);
+    goto Ecl_EtBreak_216 @ 1;
+Ecl_EtBreak_120:
+    ins_420(%B);
+    %B;
+1:
+    10;
+    ins_51();
+    ins_45(%B);
+Ecl_EtBreak_216:
+    %B;
+    640.0f;
+    ins_64();
+    ins_14(Ecl_EtBreak_120, 0);
+    ins_1();
+}
+
+sub Ecl_EtBreak2()
+{
+    var A B;
+    %B = 16.0f;
+    ins_322(16);
+    goto Ecl_EtBreak2_216 @ 1;
+Ecl_EtBreak2_120:
+    ins_420(%B);
+    %B;
+1:
+    6;
+    ins_51();
+    ins_45(%B);
+Ecl_EtBreak2_216:
+    %B;
+    640.0f;
+    ins_64();
+    ins_14(Ecl_EtBreak2_120, 0);
+    ins_1();
+}
+
+sub Ecl_EtBreak2_ni()
+{
+    var A B;
+    %B = 16.0f;
+    ins_322(16);
+    goto Ecl_EtBreak2_ni_216 @ 1;
+Ecl_EtBreak2_ni_120:
+    ins_421(%B);
+    %B;
+1:
+    6;
+    ins_51();
+    ins_45(%B);
+Ecl_EtBreak2_ni_216:
+    %B;
+    640.0f;
+    ins_64();
+    ins_14(Ecl_EtBreak2_ni_120, 0);
+    ins_1();
+}
+
+sub Ecl_EtBreak_ni()
+{
+    var A B;
+    %B = 16.0f;
+    ins_322(16);
+    goto Ecl_EtBreak_ni_216 @ 1;
+Ecl_EtBreak_ni_120:
+    ins_421(%B);
+    %B;
+1:
+    10;
+    ins_51();
+    ins_45(%B);
+Ecl_EtBreak_ni_216:
+    %B;
+    640.0f;
+    ins_64();
+    ins_14(Ecl_EtBreak_ni_120, 0);
+    ins_1();
+}
+
+sub et_ofs_r()
+{
+    var A B C D;
+    %B;
+    [-9999.0f];
+    ins_55();
+    ins_81(%C, %D, [-9998.0f], [-1.0f]);
+    ins_403($A, %C, %D);
+    ins_10();
+}
+
+sub test()
+{
+    var A B;
+    [-9997.0f];
+    ins_85();
+    %A;
+    ins_51();
+    -3;
+    ins_51();
+    ins_45(%A);
+    ins_10();
+}
