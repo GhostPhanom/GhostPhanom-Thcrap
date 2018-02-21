@@ -1,6 +1,6 @@
 anim { "enemy.anm"; "st01enm.anm"; }
-ecli { "default.ecl"; "st01bs.ecl"; "st01mbs.ecl"; "st01mbs2.ecl";}
-
+ecli { "default.ecl"; "st01bs.ecl"; "st01mbs.ecl"; }
+  
 sub GirlB01()
 {
     var;
@@ -56,22 +56,14 @@ sub main()
 {
 	var;
     ins_502(32);
-    ins_23(1);
-    ins_524(0);
 	ins_23(60);
 	ins_0();
 	ins_11("MainFront");
     ins_525();
 	ins_616(640.0f);
-    ins_524(2);
+    ins_524(3);
     ins_23(60);
     ins_301("MBoss", 192.0f, -32.0f, 40, 1000, 1);
-	ins_520();
-	ins_525();
-	ins_616(640.0f);
-    ins_524(4);
-    ins_23(60);
-	ins_301("MBossB", -192.0f, -32.0f, 40, 1000, 1);
 	ins_520();
 	ins_525();
 	ins_616(640.0f);
