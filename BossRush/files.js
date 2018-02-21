@@ -1,5 +1,5 @@
 {
-	"patch.js": 3921744179,
+	"patch.js": 1868406606,
 	"th08/ecldata1.ecl": 4254154729,
 	"th10/default": 2559624403,
 	"th10/stage01.ecl": 1824819046,
@@ -8,7 +8,6 @@
 	"th10/stage04.ecl": 2910004061,
 	"th10/stage05.ecl": 2081521676,
 	"th10/stage06.ecl": 2448553398,
-	"th10/stage07": null,
 	"th10/stage07.ecl": 1817281073,
 	"th11/stage01.ecl": 847105700,
 	"th11/stage02.ecl": 1097820456,
@@ -17,15 +16,6 @@
 	"th11/stage05.ecl": 3427115604,
 	"th11/stage06.ecl": 1314583690,
 	"th11/stage07.ecl": 3288595197,
-	"th12/Neuer Ordner/default.ecl": null,
-	"th12/Neuer Ordner/stage01.ecl": null,
-	"th12/Neuer Ordner/stage02.ecl": null,
-	"th12/Neuer Ordner/stage03.ecl": null,
-	"th12/Neuer Ordner/stage04.ecl": null,
-	"th12/Neuer Ordner/stage05.ecl": null,
-	"th12/Neuer Ordner/stage06.ecl": null,
-	"th12/Neuer Ordner/stage07.ecl": null,
-	"th12/Neuer Ordner/stage07boss.ecl": null,
 	"th12/default.ecl": 2225254972,
 	"th12/stage01.ecl": 2014583243,
 	"th12/stage02.ecl": 3318159594,
@@ -57,5 +47,11 @@
 	"th14/st05.ecl": 1673654330,
 	"th14/st06.ecl": 3709020222,
 	"th14/st07.ecl": 27099266,
-	"th15/st01.ecl": 3998043754
+	"th15/st01.ecl": 1235530603,
+	"th15/st02.ecl": 4110642212,
+	"th15/st03.ecl": 1130536424,
+	"th15/st04.ecl": 4138025998,
+	"th15/st05.ecl": 2890321308,
+	"th15/st06.ecl": 1756285041,
+	"th15/st07.ecl": 1532226987
 }

@@ -1,0 +1,75 @@
+anim { "enemy.anm"; "st02enm.anm"; }
+ecli { "default.ecl"; "st02bs.ecl"; "st02mbs.ecl";}
+
+sub GirlB01()
+{
+    var;
+    ins_302(2);
+    ins_306(0, 30);
+    ins_303(1, 85);
+    ins_1002(5);
+    ins_1001(120);
+    ins_510(1);
+    ins_507(8, 1);
+    ins_507(5, 1);
+    ins_500(32.0f, 32.0f);
+    ins_501(24.0f, 24.0f);
+    ins_404(1.5707964f, 2.7f);
+    ins_405(80, 1, -999999.0f, 0.0f);
+    ins_23(240);
+    ins_405(80, 1, [-9989.0f], 3.0f);
+    ins_23(60);
+    goto GirlB01_432 @ 0;
+GirlB01_412:
+    ins_23(1000);
+GirlB01_432:
+    if 1 goto GirlB01_412 @ 0;
+    ins_1();
+}
+
+sub MainFront()
+{
+    var;
+    ins_301("GirlB01", 0.0f, -16.0f, 1, 42, 12);
+    ins_23(170);
+    ins_10();
+}
+
+sub MainBoss()
+{
+    var;
+    ins_519();
+    ins_301("Boss", 144.0f, -16.0f, 40, 1000, 1);
+    ins_519();
+1:
+    ins_520();
+    ins_524(81);
+61:
+    ins_518(1);
+    ins_519();
+    ins_10();
+    ins_10();
+}
+
+sub main()
+{
+	var;
+    ins_502(32);
+	ins_23(60);
+	ins_0();
+	ins_11("MainFront");
+    ins_525();
+	ins_616(640.0f);
+    ins_524(3);
+    ins_23(60);
+    ins_301("MBoss", 192.0f, -32.0f, 40, 1000, 1);
+	ins_520();
+	ins_525();
+	ins_616(640.0f);
+    ins_524(41);
+    ins_23(60);
+	ins_518(0);
+	ins_11("MainBoss");
+	ins_520();
+	ins_1();
+}
