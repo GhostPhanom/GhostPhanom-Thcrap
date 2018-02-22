@@ -52,12 +52,32 @@ sub MainBoss()
     ins_10();
 }
 
+sub MainBossSpellST5()
+{
+    var;
+    ins_524(43);
+    ins_630(1);
+10:
+    ins_518(-1);
+11:
+    ins_301("BossSp", 144.0f, -16.0f, 40, 1000, 1);
+    ins_301("BossB", 144.0f, -16.0f, 40, 1000, 1);
+    ins_520();
+    ins_524(81);
+    ins_23(170);
+    ins_518(-2);
+    ins_519();
+    ins_10();
+}
+
 sub main()
 {
 	var;
     ins_502(32);
+	unless ([-9907] >= 0) goto main_356 @ 0;
+    ins_11("MainBossSpellST5");
+main_356:
 	ins_23(60);
-	ins_0();
 	ins_11("MainFront");
     ins_525();
 	ins_616(640.0f);

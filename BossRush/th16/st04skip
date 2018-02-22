@@ -56,8 +56,13 @@ sub main()
 {
 	var;
     ins_502(32);
+	unless ([-9907] >= 0) goto main_492 @ 0;
+    unless ([-9907] <= 21) goto main_368 @ 0;
+    ins_11("MainMBossSpell");
+main_368:
+    ins_11("MainBossSpell");
+main_492:
 	ins_23(60);
-	ins_0();
 	ins_11("MainFront");
     ins_525();
 	ins_616(640.0f);

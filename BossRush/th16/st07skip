@@ -53,12 +53,36 @@ sub MainBoss()
     ins_10();
 }
 
+sub MainMBossSpellSt7()
+{
+    var;
+    ins_524(22);
+    ins_630(1);
+10:
+    ins_518(-3);
+11:
+    ins_301("MBoss", 144.0f, -16.0f, 40, 1000, 1);
+    ins_301("MBossB", 144.0f, -16.0f, 40, 1000, 1);
+    ins_520();
+    ins_524(81);
+    ins_23(100);
+    ins_518(-2);
+    ins_519();
+    ins_10();
+}
+
 sub main()
 {
 	var;
     ins_502(32);
+	unless ([-9907] >= 0) goto main_568 @ 0;
+    unless ([-9907] < 109) goto main_424 @ 0;
+	ins_11("MainMBossSpellSt7");
+main_424:
+    ins_524(43);
+    ins_11("MainBossSpell");
+main_568:
 	ins_23(60);
-	ins_0();
 	ins_11("MainFront");
     ins_525();
 	ins_616(640.0f);
