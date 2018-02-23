@@ -71,6 +71,41 @@ sub MainMBossSpellSt7()
     ins_10();
 }
 
+sub MapleEnemy()
+{
+    var A B;
+    ins_502(32);
+    $A = 60;
+    goto MapleEnemy_164 @ 0;
+MapleEnemy_120:
+    ins_308(1, 106);
+    ins_23(2);
+MapleEnemy_164:
+    if $A-- goto MapleEnemy_120 @ 0;
+    $B = 1100;
+    goto MapleEnemy_316 @ 0;
+MapleEnemy_272:
+    ins_308(1, 106);
+    ins_23(2);
+MapleEnemy_316:
+    if $B-- goto MapleEnemy_272 @ 0;
+    ins_1();
+}
+
+sub MapleEnemy2()
+{
+    var;
+    ins_502(32);
+    ins_23(2240);
+    goto MapleEnemy2_144 @ 0;
+MapleEnemy2_100:
+    ins_308(1, 107);
+    ins_23(2);
+MapleEnemy2_144:
+    if 1 goto MapleEnemy2_100 @ 0;
+    ins_1();
+}
+
 sub main()
 {
 	var;
@@ -82,6 +117,8 @@ main_424:
     ins_524(43);
     ins_11("MainBossSpell");
 main_568:
+    ins_321("MapleEnemy", 0, 0, 100, 1000, 0);
+    ins_321("MapleEnemy2", 0, 0, 100, 1000, 0);
 	ins_23(60);
 	ins_11("MainFront");
     ins_525();

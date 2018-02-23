@@ -103,6 +103,255 @@ sub MainBoss()
     ins_10();
     ins_10();
 }
+
+sub MapleEnemy()
+{
+    var A B C D E F G H;
+    ins_502(32);
+    ins_23(700);
+    goto MapleEnemy_1396 @ 0;
+MapleEnemy_100:
+    ins_23(70);
+    $A = 10;
+    goto MapleEnemy_208 @ 0;
+MapleEnemy_184:
+    ins_308(3, 18);
+MapleEnemy_208:
+    if $A-- goto MapleEnemy_184 @ 0;
+    $B = 5;
+    goto MapleEnemy_360 @ 0;
+MapleEnemy_316:
+    ins_308(3, 18);
+    ins_23(20);
+MapleEnemy_360:
+    if $B-- goto MapleEnemy_316 @ 0;
+    ins_23(130);
+    ins_23(70);
+    $C = 10;
+    goto MapleEnemy_532 @ 0;
+MapleEnemy_508:
+    ins_308(3, 19);
+MapleEnemy_532:
+    if $C-- goto MapleEnemy_508 @ 0;
+    $D = 5;
+    goto MapleEnemy_684 @ 0;
+MapleEnemy_640:
+    ins_308(3, 19);
+    ins_23(20);
+MapleEnemy_684:
+    if $D-- goto MapleEnemy_640 @ 0;
+    ins_23(130);
+    ins_23(70);
+    $E = 10;
+    goto MapleEnemy_856 @ 0;
+MapleEnemy_832:
+    ins_308(3, 20);
+MapleEnemy_856:
+    if $E-- goto MapleEnemy_832 @ 0;
+    $F = 5;
+    goto MapleEnemy_1008 @ 0;
+MapleEnemy_964:
+    ins_308(3, 20);
+    ins_23(20);
+MapleEnemy_1008:
+    if $F-- goto MapleEnemy_964 @ 0;
+    ins_23(130);
+    ins_23(70);
+    $G = 10;
+    goto MapleEnemy_1180 @ 0;
+MapleEnemy_1156:
+    ins_308(3, 21);
+MapleEnemy_1180:
+    if $G-- goto MapleEnemy_1156 @ 0;
+    $H = 5;
+    goto MapleEnemy_1332 @ 0;
+MapleEnemy_1288:
+    ins_308(3, 21);
+    ins_23(20);
+MapleEnemy_1332:
+    if $H-- goto MapleEnemy_1288 @ 0;
+    ins_23(130);
+MapleEnemy_1396:
+    if 1 goto MapleEnemy_100 @ 0;
+    ins_1();
+}
+
+sub MapleEnemy2()
+{
+    var A;
+    ins_502(32);
+    $A = 60;
+    goto MapleEnemy2_164 @ 0;
+MapleEnemy2_120:
+    ins_308(1, 107);
+    ins_23(2);
+MapleEnemy2_164:
+    if $A-- goto MapleEnemy2_120 @ 0;
+    goto MapleEnemy2_276 @ 0;
+MapleEnemy2_232:
+    ins_308(1, 107);
+    ins_23(2);
+MapleEnemy2_276:
+    if 1 goto MapleEnemy2_232 @ 0;
+    ins_1();
+}
+
+sub MapleEnemy3()
+{
+    var A B C;
+    ins_502(32);
+    $A = 140;
+    $B = 140;
+    goto MapleEnemy3_264 @ 0;
+MapleEnemy3_160:
+    ins_339(1, 107, $A);
+    $A = ($A - 1);
+MapleEnemy3_264:
+    if $B-- goto MapleEnemy3_160 @ 0;
+    $C = 60;
+    goto MapleEnemy3_416 @ 0;
+MapleEnemy3_372:
+    ins_308(1, 107);
+    ins_23(2);
+MapleEnemy3_416:
+    if $C-- goto MapleEnemy3_372 @ 0;
+    ins_1();
+}
+
+sub MapleEnemy4()
+{
+    var A;
+    ins_502(32);
+    ins_23(100);
+    $A = 60;
+    goto MapleEnemy4_184 @ 0;
+MapleEnemy4_140:
+    ins_308(1, 104);
+    ins_23(2);
+MapleEnemy4_184:
+    if $A-- goto MapleEnemy4_140 @ 0;
+    goto MapleEnemy4_296 @ 0;
+MapleEnemy4_252:
+    ins_308(1, 104);
+    ins_23(2);
+MapleEnemy4_296:
+    if 1 goto MapleEnemy4_252 @ 0;
+    ins_1();
+}
+
+sub MapleEnemy5()
+{
+    var A B;
+    ins_502(32);
+    ins_23(120);
+    $A = 200;
+    $B = 10;
+    goto MapleEnemy5_280 @ 0;
+MapleEnemy5_180:
+    ins_308(3, 22);
+    $A = ($A - 20);
+MapleEnemy5_280:
+    if $B-- goto MapleEnemy5_180 @ 0;
+    goto MapleEnemy5_392 @ 0;
+MapleEnemy5_348:
+    ins_308(3, 22);
+    ins_23(30);
+MapleEnemy5_392:
+    if 1 goto MapleEnemy5_348 @ 0;
+    ins_1();
+}
+
+sub MapleEnemy6()
+{
+    var A B C D E F G H;
+    ins_502(32);
+    goto MapleEnemy6_1376 @ 0;
+MapleEnemy6_80:
+    ins_23(70);
+    $A = 10;
+    goto MapleEnemy6_188 @ 0;
+MapleEnemy6_164:
+    ins_308(3, 18);
+MapleEnemy6_188:
+    if $A-- goto MapleEnemy6_164 @ 0;
+    $B = 5;
+    goto MapleEnemy6_340 @ 0;
+MapleEnemy6_296:
+    ins_308(3, 18);
+    ins_23(20);
+MapleEnemy6_340:
+    if $B-- goto MapleEnemy6_296 @ 0;
+    ins_23(130);
+    ins_23(70);
+    $C = 10;
+    goto MapleEnemy6_512 @ 0;
+MapleEnemy6_488:
+    ins_308(3, 19);
+MapleEnemy6_512:
+    if $C-- goto MapleEnemy6_488 @ 0;
+    $D = 5;
+    goto MapleEnemy6_664 @ 0;
+MapleEnemy6_620:
+    ins_308(3, 19);
+    ins_23(20);
+MapleEnemy6_664:
+    if $D-- goto MapleEnemy6_620 @ 0;
+    ins_23(130);
+    ins_23(70);
+    $E = 10;
+    goto MapleEnemy6_836 @ 0;
+MapleEnemy6_812:
+    ins_308(3, 20);
+MapleEnemy6_836:
+    if $E-- goto MapleEnemy6_812 @ 0;
+    $F = 5;
+    goto MapleEnemy6_988 @ 0;
+MapleEnemy6_944:
+    ins_308(3, 20);
+    ins_23(20);
+MapleEnemy6_988:
+    if $F-- goto MapleEnemy6_944 @ 0;
+    ins_23(130);
+    ins_23(70);
+    $G = 10;
+    goto MapleEnemy6_1160 @ 0;
+MapleEnemy6_1136:
+    ins_308(3, 21);
+MapleEnemy6_1160:
+    if $G-- goto MapleEnemy6_1136 @ 0;
+    $H = 5;
+    goto MapleEnemy6_1312 @ 0;
+MapleEnemy6_1268:
+    ins_308(3, 21);
+    ins_23(20);
+MapleEnemy6_1312:
+    if $H-- goto MapleEnemy6_1268 @ 0;
+    ins_23(130);
+MapleEnemy6_1376:
+    if 1 goto MapleEnemy6_80 @ 0;
+    ins_1();
+}
+
+sub MapleEnemy7()
+{
+    var A;
+    ins_502(32);
+    $A = 60;
+    goto MapleEnemy7_164 @ 0;
+MapleEnemy7_120:
+    ins_308(1, 107);
+    ins_23(2);
+MapleEnemy7_164:
+    if $A-- goto MapleEnemy7_120 @ 0;
+    goto MapleEnemy7_276 @ 0;
+MapleEnemy7_232:
+    ins_308(1, 107);
+    ins_23(2);
+MapleEnemy7_276:
+    if 1 goto MapleEnemy7_232 @ 0;
+    ins_1();
+}
+
 sub main()
 {
 	var;
@@ -110,6 +359,10 @@ sub main()
 	unless ([-9907] >= 0) goto main_488 @ 0;
     ins_11("MainBossSpellSt6");
 main_488:
+	ins_321("MapleEnemy", 0, 0, 100, 1000, 0);
+    [-9924] = [-9931];
+    ins_321("MapleEnemy2", 0, 0, 100, 1000, 0);
+    [-9923] = [-9931];
 	ins_23(60);
 	ins_11("MainFront");
 	ins_525();
