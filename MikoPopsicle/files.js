@@ -7,6 +7,7 @@
 	"th17/bullet/beast1.png": 1804546833,
 	"th17/bullet/beastf.png": 318370936,
 	"th17/front/front00.png": 2913692541,
+	"th17/help/trophy/trophy.png": 2184025987,
 	"th17/title/weapon00.png": 2391760138,
 	"th17/title/weapon01.png": 921926898
 }
