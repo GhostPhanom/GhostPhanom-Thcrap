@@ -17,6 +17,10 @@
 			"addr": "0x0048CE80",
 			"code": "50 A1 5CF86200 6BC0 20"
 		},
+		"NOP": {
+			"addr": ["0x0048CE7F"],
+			"code": "90"
+		},
 		"group1_1": {
 			"addr": "0x0048CE89",
 			"code": "8B88 E8CE4800 3B0D FCE02F01 7520"
